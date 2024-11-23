@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Oswald:wght@200..700&display=swap');
+/* font-family: "Oswald", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+/* font-family: "Josefin Sans", sans-serif; */
+
+:root {
+    --font-01: "Oswald"; 
+    --font-01-color: white;
+    --font-02: "Josefin Sans";
+    --cursor_hert: url(../img/heart-solid-cursor.svg)2 2, auto;
+    --space: 50px 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.site {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.site h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 31pt;
+    font-family: var(--font-01);
+    position:relative;
+    color: var(--font-01-color);
+    z-index: 100px;
+}
+
+.animate__slideInDown {
+    transition-duration: 2s;
+    animation-delay: 0.9s;
+}
+
+.start .site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start .carrousel {
+    width: 500px;
+} 
+
+.start .carrousel img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: var(--cursor_hert);
+}
+
+.slick-prev:before , .slick-next:before {
+    color:var(--font-01-color);
+    font-size: 21pt;
+    padding: 5px;
+}
+
+.slick-dots,.slick-dots li button:before {
+    color:var(--font-01-color);
+    font-size: 14pt;
+}
+.slick-dots li.slick-active button:before {
+    color: rgb(255, 0, 0);
+}
+
+.space {
+    padding: var(--space);
+}
+
+.declaration div h3 {
+    font-family: var(--font-01);
+    color: var(--font-01-color);
+    font-size: 31pt;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.declaration div p {
+    padding: 50px;
+    font-family: var(--font-02);
+    text-indent: 5px;
+}
+
+.declaration div {
+
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/heart-solid\ 1.svg);
+    backdrop-filter: blur(1.2px);
+    background-position: bottom bottom; 
+    background-attachment: fixed;
+    filter: brightness(85%);
+}
+
