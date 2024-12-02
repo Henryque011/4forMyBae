@@ -9,7 +9,7 @@
     --font-01-color: white;
     --font-02: "Josefin Sans";
     --cursor_hert: url(../img/heart-solid-cursor.svg)2 2, auto;
-    --space: 50px 0;
+    --space: 30px 0;
 }
 
 * {
@@ -37,6 +37,13 @@
 .animate__slideInDown {
     transition-duration: 2s;
     animation-delay: 0.9s;
+}
+.animate__pulse h3{
+    transition-duration: 1s;
+    animation: infinite;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+
 }
 
 .start .site{
@@ -94,8 +101,46 @@
 }
 
 .declaration div {
-
     color: white;
+}
+
+
+.contador h2{
+    font-size: 21pt;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-01);
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    padding: 10px;
+    font-family: var(--font-02);
+    font-size: 21pt;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14pt;
+    margin: 5px;
+    font-family: var(--font-02);
+}
+
+footer div a {
+    text-decoration: none;
+    color: yellow;
+    padding: 0 5px;
 }
 
 body {
