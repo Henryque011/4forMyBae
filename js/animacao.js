@@ -6,8 +6,14 @@ $('.carrousel').slick({
     fade: true,
     cssEase: 'linear',
     autoplay: true,
-    autoplaySpeed: 3000
+    autoplaySpeed: 3000,
+    centerMode: true,
+    variableWidth: false,
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev">❮</button>',
+    nextArrow: '<button type="button" class="slick-next">❯</button>'
 });
+
 
 // contador
 // script.js
