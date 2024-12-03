@@ -5,7 +5,7 @@
 /* font-family: "Josefin Sans", sans-serif; */
 
 :root {
-    --font-01: "Oswald"; 
+    --font-01: "Oswald";
     --font-01-color: white;
     --font-02: "Josefin Sans";
     --cursor_hert: url(../img/heart-solid-cursor.svg)2 2, auto;
@@ -29,7 +29,7 @@
     margin: 20px;
     font-size: 28pt;
     font-family: var(--font-01);
-    position:relative;
+    position: relative;
     color: var(--font-01-color);
     z-index: 100px;
 }
@@ -38,14 +38,15 @@
     transition-duration: 2s;
     animation-delay: 0.9s;
 }
-.animate__pulse h3{
+
+.animate__pulse h3 {
     transition-duration: 1s;
     animation: infinite;
     animation-delay: 0.5s;
     animation-direction: alternate-reverse;
 }
 
-.start .site{
+.start .site {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +60,7 @@
     max-width: 100%;
     height: 100vh;
     margin: 0 auto;
-} 
+}
 
 .carrousel div {
     display: flex;
@@ -70,33 +71,35 @@
     flex-shrink: 0;
 }
 
-.start .carrousel img{
+.start .carrousel img {
     max-width: 100%;
     max-height: 99vh;
     border-radius: 20px;
-    margin: 0 auto; 
+    margin: 0 auto;
     display: block;
     cursor: var(--cursor_hert);
 }
 
-.slick-prev:before , .slick-next:before {
-    color:var(--font-01-color);
+.slick-prev:before,
+.slick-next:before {
+    color: var(--font-01-color);
     font-size: 20pt;
     position: absolute;
-    top: 50%; 
-    transform: translateY(-50%); 
-    z-index: 10; 
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
 }
 
 .slick-prev {
-    left: 15px; 
+    left: 15px;
 }
 
 .slick-next {
-    right: 60px; 
+    right: 60px;
 }
 
-.slick-dots,.slick-dots li button:before {
+.slick-dots,
+.slick-dots li button:before {
     width: 100px;
     color: var(--font-01-color);
     font-size: 20pt;
@@ -139,7 +142,7 @@
 }
 
 
-.contador h2{
+.contador h2 {
     font-size: 21pt;
     align-items: center;
     text-align: center;
@@ -154,7 +157,10 @@
     align-items: center;
 }
 
-.days, .hours, .minutes, .seconds {
+.days,
+.hours,
+.minutes,
+.seconds {
     padding: 10px;
     font-family: var(--font-02);
     font-size: 21pt;
@@ -179,7 +185,7 @@ body {
     background-color: rgb(0, 0, 0);
     background-image: url(../img/heart-solid\ 1.svg);
     backdrop-filter: blur(1.2px);
-    background-position: bottom bottom; 
+    background-position: bottom bottom;
     background-attachment: fixed;
     filter: brightness(85%);
 }
@@ -195,34 +201,26 @@ body {
         margin-top: 20px;
         font-size: 18pt;
     }
-    
-    .slick-prev {
-        left: ;
-    }
+
     .slick-next {
         top: 50%;
     }
 
     .slick-prev:before,
     .slick-next:before {
-        font-size: 24px; 
-        color: var(--font-01-color); 
+        font-size: 24px;
+        color: var(--font-01-color);
     }
 
-    footer div{
+    footer div {
         margin: 20px;
     }
 }
 
 @media (max-width:768px) {
-    .carrousel div {
-        
-    }
     .start .carrousel img {
         width: 315px;
-        
     }
-
 }
 
 @media (max-width: 480px) {
@@ -241,7 +239,8 @@ body {
         height: 75vh;
     }
 
-    .slick-dots, .slick-dots li button:before {
+    .slick-dots,
+    .slick-dots li button:before {
         width: 50px;
         height: 250px;
         margin: 5px;
@@ -251,7 +250,7 @@ body {
     .declaration div h3 {
         font-size: 16pt;
     }
-    
+
     .contador h2 {
         font-size: 16pt;
     }
@@ -259,10 +258,14 @@ body {
     .space {
         padding: 1px;
     }
-    
-    .days, .hours, .minutes, .seconds {
+
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
         font-size: 11pt;
     }
+
     .timer {
         font-size: 11pt;
     }
