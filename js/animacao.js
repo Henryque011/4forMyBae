@@ -44,7 +44,7 @@ $('.carrousel').slick({
 
 document.addEventListener("DOMContentLoaded", function () {
     const startDate = new Date("2023-10-03T19:00:00");
-    const endDate = new Date("2025-03-15T23:59:59");
+    const endDate = new Date("2025-03-15T23:30:00");
     let interval;
 
     function updateTimer() {
