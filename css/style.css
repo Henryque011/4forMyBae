@@ -125,7 +125,7 @@
 .declaration div h3 {
     font-family: var(--font-01);
     color: var(--font-01-color);
-    font-size: 28pt;
+    font-size: 24pt;
     margin: 10px;
     align-items: center;
     text-align: center;
@@ -135,6 +135,8 @@
     padding: 15px;
     font-family: var(--font-02);
     text-indent: 5px;
+    font-size: 18pt;
+    text-align: center;
 }
 
 .declaration div {
