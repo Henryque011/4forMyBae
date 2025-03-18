@@ -132,7 +132,7 @@
 }
 
 .declaration div p {
-    padding: 20px;
+    padding: 15px;
     font-family: var(--font-02);
     text-indent: 5px;
 }
@@ -141,6 +141,12 @@
     color: white;
 }
 
+.declaration div:nth-child(3){
+    align-items: center;
+    text-align: center;
+    font-size: 18pt;
+    font-family: var(--font-01);
+}
 
 .contador h2 {
     font-size: 21pt;
